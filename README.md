@@ -22,26 +22,25 @@
 
 # Namaste Food
 
-/\*
+\*Header
 
-- \*Header
-- -Logo
-- -Nav Items
-  \*Body
-- -Search bar
-- -Restaurant Cntainer
-- -restaurant card
--      -img
--      -Name of Restaurant, Star Rating, Cuisine, delivery time
--
-- \*Footer
-- - Copyright
-- -Links
-- -Address
-- -Contact
-- \*/
+- Logo
+- Nav Items
 
-Two Types of Export/Import
+\*Body
+
+- Search bar
+- Restaurant Cntainer
+- restaurant card
+  - img
+  - Name of Restaurant, Star Rating, Cuisine, delivery time
+    \*Footer
+- Copyright
+- Links
+- Address
+- Contact \*
+
+# Two Types of Export/Import
 
 -Default Export/Import
 
@@ -52,3 +51,15 @@ import Component from "path";
 
 export Component;
 import {Component} from "path";
+
+# React Hooks
+
+(Normal JS utility functions)
+
+- useState - create super powerful state variables in react
+- useEffect
+
+# 2 Types of Routing in Web Applications
+
+- Client Side Routing
+- Server Side Routing
