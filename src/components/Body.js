@@ -54,7 +54,7 @@ const Body = () => {
           className="filter-btn"
           onClick={() => {
             let filteredList = listOfRestaurants.filter(
-              (x) => x.info.avgRating >= 4.5
+              (x) => x.info.avgRating >= 4
             );
             setFilteredRestoCards(filteredList);
           }}
