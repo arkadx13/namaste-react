@@ -42,7 +42,7 @@
 
 # Two Types of Export/Import
 
--Default Export/Import
+- Default Export/Import
 
 export default Component;
 import Component from "path";
