@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react/cjs/react.production.min";
+import { useEffect, useState } from "react";
 import { MENU_API } from "./constants";
 
 const useRestaurantMenu = (resId) => {
