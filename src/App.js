@@ -22,7 +22,7 @@ const AppLayout = () => {
   //API call to send Name
   useEffect(() => {
     const data = {
-      loggedInUser: "Akshay Saini",
+      loggedInUser: "Mariel M.",
     };
     setUserName(data.loggedInUser);
   }, []);
