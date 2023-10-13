@@ -72,3 +72,22 @@ import {Component} from "path";
 - Create a slice (cartSlice)
 - Dispatch (action)
 - Read data using Selector
+
+# Types of Testing (Developer)
+
+- Unit Testing
+- Integration Testing
+- End to End Testing - e2e testing
+
+# Setting Up Testing in Our Ap
+
+- Install React Testing Libray
+- Installed jest
+- Installed Babel dependencies
+- Configure Babel
+- Configure Parcel Config File to disable default Babel transpilation
+- Writing Jest configuration - npx jest --init
+- Install jsdom library
+- Install @babel/preset-react - to make JSX work in test cases
+- Includee @babel/preset-react inside babel config
+- npm i -D @testing-library/jest-dom - Install @testing-library/jest-dom - to be able to use functions like toBeInTheDocument() and many others
